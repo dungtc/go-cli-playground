@@ -3,7 +3,7 @@
 A cli interacts with computer program like go, docker, k8s, npm, vice versa.
 
 Example:
-```
+```console
 $ go get -u URL
 $ docker run -t image
 $ kubectl get pods
@@ -19,7 +19,7 @@ App Subcommands --Flags Args
 **Subcommands** has own flags and arguments
 
 # Build
-```
+```console
 $ go install github.com/dungtc/go-cli-playground
 ```
 It will install your binary into $PATH
@@ -28,7 +28,7 @@ It will install your binary into $PATH
 # Usage
 
 ### Help
-```
+```console
 -help
 	Usage:
 		go-cli-playground [command]
@@ -39,20 +39,20 @@ It will install your binary into $PATH
 ```
 
 ### Add task command
-```
+```console
 $ go-cli-playground add Make a cookie
 ```
 
 
 ### List task command
-```
+```console
 $ go-cli-playground list
 1. Do some thing
 2. Make a cookie
 ```
 
 ### Count task command
-```
+```console
 $ go-cli-playground count
 Count: 2
 ```
